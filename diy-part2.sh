@@ -12,6 +12,3 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
-
-# 修改默认密码
-sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$Ca7pY.EZ$XPO0ONejsNXBp0sy7sP1H1:0:0:99999:7:::/g' package/lean/default-settings/files/zzz-default-settings
